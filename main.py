@@ -5,7 +5,7 @@
 # add book
 # return book
 
-# HarryLibrary = Library(listofbooks, library_name)
+# ManuLibrary = Library(listofbooks, library_name)
 
 
 #dictionary (books-nameofperson)
@@ -40,7 +40,7 @@ class Library:
         self.lendDict.pop(book)
 
 if __name__ == '__main__':
-    manu = Library(['Python', 'Rich Daddy Poor Daddy', 'Harry Potter', 'C++ Basics', 'Algorithms by CLRS'], "CodeWithHarry")
+    manu = Library(['Python', 'Rich Daddy Poor Daddy', 'Harry Potter', 'C++ Basics', 'Algorithms by CLRS'], "Manudibooks")
 
     while(True):
         print(f"Welcome to the {manu.name} library. Enter your choice to continue")
